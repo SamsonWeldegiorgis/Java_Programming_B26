@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class JeffBezos {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String email = scan.next();
+//        Scanner scan = new Scanner(System.in);
+//        String email = scan.next();
 
+
+        String email = "jeff_bezos@amazon.us";
         String firstName ="";
         String lastName ="";
 

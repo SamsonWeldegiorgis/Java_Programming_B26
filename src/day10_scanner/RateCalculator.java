@@ -15,7 +15,7 @@ public class RateCalculator {
          */
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter your salary");
+        System.out.println("Enter your yearly salary");
         double salary = input.nextDouble();
         System.out.println("How many hours do you work in week ?");
         int hours = input.nextInt();

@@ -25,10 +25,39 @@ public class SubString_StringMethods {
                                 + name5.substring(1,name5.length())); // yoonis >> Yoonis
 
 
+        System.out.println(" ---------------------------------------------------");
         String lastName = "Jacobs";
         String firstName = "JacoBs";
 
         System.out.println();
+
+        // accept string  from string      victoria,,,,,> ai
+
+        String str = "breadJambread";
+
+        // jam
+        System.out.println("Jam: " + str.substring(5,str.length()-5));
+
+        // last a
+        System.out.println(str.substring(11,str.length()-1));
+
+        // last d
+        System.out.println(str.substring(str.length()-1));
+
+        // breadJambreda
+        System.out.println(str.substring(0,12)+ str.substring(str.length()-1) + str.substring(11,str.length()-1));
+
+        // 1st bread
+        System.out.println(str.substring(0,5));
+
+        // 2nd bread
+        int breadseco = str.indexOf("m");
+        System.out.println(str.substring(breadseco+1));
+
+
+        // breadbreadJam
+        System.out.println(str.substring(0,5)+ str.substring(breadseco+1) +str.substring(5,str.length()-5));
+
 
     }
 }

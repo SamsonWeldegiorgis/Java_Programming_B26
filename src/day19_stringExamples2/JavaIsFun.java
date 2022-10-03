@@ -8,8 +8,8 @@ public class JavaIsFun {
         int firstIndex = words.indexOf(" ");
         int lastIndex = words.indexOf(" ",firstIndex+1);
 
-        System.out.println(words.substring(0,firstIndex));
-        System.out.println(words.substring(firstIndex,lastIndex));
-        System.out.println(words.substring(lastIndex, words.length()));
+        System.out.println(words.substring(0,firstIndex));  // Java
+        System.out.println(words.substring(firstIndex,lastIndex));  // is
+        System.out.println(words.substring(lastIndex, words.length()));  // fun
     }
 }

@@ -22,7 +22,7 @@ public class CountNumbers {
 
     public static void counter (int numbers){
         for (int i = 0; i <=numbers ; i++) {
-            System.out.print(i+" ");
+            System.out.print(i+ " ");
 
         }
     }

@@ -20,8 +20,8 @@ public class AllOperators {
 
         int a = 20; // 20 >  19 > 20 >  19 >  18
         int b =  -a-- + a++ + --a * a--;
-        //       -20 + 19   + 19  * 19 ;
-        //        -20 + 19    +   361
+        //
+        //
         //           -1 + 361
         //              360
 
@@ -30,17 +30,32 @@ public class AllOperators {
 
 
 
-        int a2 = 5;// 5 >> 4 >> 5 >>4 >>3
+        int a2 = 5;//  3
         int b2 =     -a2-- + a2++ + --a2 * a2--;
-        //            -5 + 4 + 5 *4
-        //            -5 + 4 + 20
-        //             -1 + 20
-        //               19
+        //          -5 > 4 + 4 >5  + 4  * 4 > 3
+        //          -5    +  4 +     4  * 4
+        //           -5+4+16
+        //             15
+
+        System.out.println("a2: "+a2);
+        System.out.println("b2 :"+b2);
 
 
         System.out.println( a2); // 3
-        System.out.println( b2);  // 19
+        System.out.println( b2);  // 15
 
+        for (int i=1; i<=100; i++ ) // 3
+            System.out.println(i); // 19
+
+
+        int start = 1;
+
+        for (int i = start; i < start +100 ; i++) {
+            System.out.println(i);
+
+
+
+        }
 
 
 

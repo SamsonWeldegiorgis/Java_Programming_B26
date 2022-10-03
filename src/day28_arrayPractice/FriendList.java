@@ -1,28 +1,74 @@
 package day28_arrayPractice;
 
+import day09_scanner.WorkStatus;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class FriendList {
     public static void main(String[] args) {
-        /*
-        make an array of your friends names, asking how many friends do you have
-        then ask for each friend's name at one time , store & print all the names into an array
-         */
 
+        String[] words = {"java", "longerword", "civic", "apple", "racecar"};
+
+        String longestword = "";
+
+        for (String each : words) {
+
+            boolean isPalind = true;
+            for (int i = 0; i < each.length(); i++) {
+
+                if (each.charAt(i) != each.charAt(each.length() - 1 - i)) {
+                    isPalind = false;
+                    break;
+                }
+            }
+            if (isPalind && each.length() > longestword.length()) {
+                longestword = each;
+            }
+        }
+        System.out.println(longestword.isEmpty() ? "NO palindrome" : longestword);
+
+
+        System.out.println(" --------------------------------------------------");
+
+        String[] word = {"racecar","anna", "boss"};
+
+        String longa = "";
+        boolean isPalo = true;
+
+        for (String each : word) {
+            for (int i = 0; i < each.length(); i++) {
+
+                if (each.charAt(i) != each.charAt(each.length() - 1 - i)) {
+                    isPalo = false;
+                    break;
+                }
+            }
+            if (isPalo && each.length() > longa.length()) {
+                longa=each;
+            }}
+            System.out.println(longa.isEmpty() ? "No palindrome" : longa);
+
+
+        System.out.println(" --------------------------------------");
+
+//        int num = 30;
         Scanner input = new Scanner(System.in);
-        System.out.println("How many friends you want to have");
-        int size = input.nextInt();
-        String [] friendsList = new String[size];
+        System.out.println("Put the number");
+        int num = input.nextInt();
 
-        for (int i = 0 ; i < friendsList.length; i++){
+        for (int i = 0; i <num ; i++) {
+            String str = "";
 
-        System.out.println("Enter the name of friends :" + (i+1));
-        friendsList[i] = input.next();
-    }
-        System.out.println("Your friends are : " + Arrays.toString( friendsList));
+        if (num % 3 == 0){
+          str+="Fin";
+        }else if ( num % 5 ==0){
+            str+="Ra";
+//        }else if (num %3 ==0 && num % 5 ==0){
+//            str+="FinRa";
+        }
+            System.out.println(str.isEmpty() ? "i" : str+"="+i);
+        }
+    }}
 
 
-
-    }
-}

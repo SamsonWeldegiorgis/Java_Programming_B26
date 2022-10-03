@@ -99,7 +99,7 @@ public class StringMethods {
         System.out.println(word.substring(tstIndex, word.lastIndexOf(""))); // y
 
         System.out.print(first); // P
-        System.out.print(word.substring(lstIndex, word.lastIndexOf(""))); // y
+        System.out.print(word.substring(tstIndex, word.lastIndexOf(""))); // y
 
 
         System.out.println("-------------------------");

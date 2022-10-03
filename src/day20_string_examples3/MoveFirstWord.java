@@ -19,7 +19,7 @@ public class MoveFirstWord {
 //        System.out.println("Put the sentence");
 //        String sentence = in.nextLine().trim().toUpperCase();
 
-        String result = "Java";
+        String result = "MyDreams";
 
         int spaceIndex = result.indexOf(' '); // we can use this for many chars(" ")
 //        System.out.println(spaceIndex);     //    Input: Java is a fun language
@@ -30,6 +30,7 @@ public class MoveFirstWord {
          String firstWord= result.substring(0,result.length()-2 );
 
         System.out.println(result);
+        System.out.println(firstWord);
 
 
         result = result.substring(spaceIndex+1) + " " + result+"?";  //  or use spaceIndex.Trim();

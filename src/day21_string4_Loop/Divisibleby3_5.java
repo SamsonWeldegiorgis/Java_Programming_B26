@@ -10,17 +10,36 @@ public class Divisibleby3_5 {
 
 
 
-   int num =1;
-        while (num ++ <= 3){
-            System.out.println("Put figures");
-             num = input.nextInt();
-            if ( num % 5 ==0 ){
-                System.out.println( "Fuzz");
-            } else if (num % 2 == 0){
-                System.out.println("Buzz");
-            }  if ( num %3 ==0 && num % 5 == 0){
-                System.out.println("FuzzBuzz");
-            }
-        }}
+        int number = 100;
+        result(number);
     }
+
+
+    public static void result(int nu) {
+
+        System.out.print("\nDivision of 3: ");
+        for (int num = 1; num < nu; num++)
+            // Short-circuit operator is used
+            if (num % 3 == 0) {
+                System.out.print(num+" ");
+
+
+        }       System.out.print("\n\nDivision of 5: ");
+        for (int num = 1; num < nu; num++)
+            if (num % 5 == 0) {
+                System.out.print(num+" ");
+
+
+            }
+        System.out.print("\n\nDivision of 15: ");
+        for (int num = 1; num < nu; num++)
+            if (num % 15 == 0) {
+                System.out.print(num+" ");
+
+        }  System.out.println();
+
+
+
+
+}}
 

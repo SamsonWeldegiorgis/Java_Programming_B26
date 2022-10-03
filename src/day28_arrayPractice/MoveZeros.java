@@ -22,12 +22,11 @@ public class MoveZeros {
 
         ////////////we can use this also
 
-
-        for (int each : nums) {
-            if (each != 0) {
-                fixed[index] = each;
-                index++;
-            }
-
+//
+//        for (int each : nums) {
+//            if (each != 0) {
+//                fixed[index] = each;
+//                index++;
+//            }
+//
         }}
-    }

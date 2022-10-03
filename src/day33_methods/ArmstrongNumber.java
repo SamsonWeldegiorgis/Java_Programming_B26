@@ -7,7 +7,7 @@ Armstrong numbers are  ====153 370 371 407 ===for 3  digits
 
                       3 -----153%10 ----153 / 10  = 15
                       5------15%10 ---- 15/ 10    = 1
-                      1------1%10 ------1/ 10      = 0
+                      1------1%10 ------1/ 10     = 0
 
                       0 -----. when we got this result, it means stop execution
 

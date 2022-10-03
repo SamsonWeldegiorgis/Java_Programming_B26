@@ -15,18 +15,20 @@ public class Palindrome {
                 flow : declare some initial String
                         how to reverse a String
                         check if the reverese version is the same as the original
+         *
+            //   arozaupalanalapuazora
          */
 
         String str = "rocar";   // reverse the string
         String reverse = "";  // we will use it to compare to the original
 
-        for (int i=str.length()-1; i>=0; i-- ) {
-            System.out.println(str.charAt(i));  // FOR REVERSING FANUS  > SUNAF
+        for (int i = str.length() - 1; i >= 0; i--) {
+            System.out.print(str.charAt(i));  // FOR REVERSING FANUS  > SUNAF
             reverse += str.charAt(i); // the same ,,,,FOR REVERSING FANUS  > SUNAF
         }
-        if (str.equals(reverse)){
+        if (str.equals(reverse)) {
             System.out.println("Palindrome");
-        }else {
+        } else {
             System.out.println("Not Palindrome");
         }
         System.out.println(str.equals(reverse) ? "Palindrome" : "Not Palindrome");
@@ -35,18 +37,29 @@ public class Palindrome {
         String mass = "DANU";
         String rever = "";
 
-        for (int i=mass.length()-1; i>=0; i--){
-            rever+=mass.charAt(i);
+        for (int i = mass.length() - 1; i >= 0; i--) {
+            rever += mass.charAt(i);
 
         }
         System.out.print(rever);
 
+    }}
 
 
+    ///////////////////Another form////////////////////////
 
-    }
-}
 
+//    String str = "LEVEL";
+//    boolean check = true;
+//
+//        for (int i = 0; i < str.length() / 2; i++) {
+//        if (str.charAt(i) != str.charAt(str.length() - 1 - i)) {
+//        check = false;
+//        break;
+//        }}
+//        System.out.println(check ? "Palindrome" : "Not Palindrome");
+//        }
+//        }
 
 
 

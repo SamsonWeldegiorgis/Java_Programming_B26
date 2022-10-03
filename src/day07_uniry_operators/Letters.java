@@ -9,10 +9,10 @@ public class Letters {
 
         System.out.println("\nletter++ of L : " + letter++);//L
         System.out.println("Next four :" );
-        System.out.println(letter++);// post increment =M
-        System.out.println(letter++);//post increment =N
-        System.out.println(letter++);// post increment = O
-        System.out.println(letter++);//post increment = P
+        System.out.println(letter++);// post increment =M     M>N
+        System.out.println(letter++);//post increment =N      N>O
+        System.out.println(letter++);// post increment = O     O>P
+        System.out.println(letter++);//post increment = P       P>Q
 
 
 
@@ -20,10 +20,10 @@ public class Letters {
 
         System.out.println("\nletter1--of L : " + letter1--);//L
         System.out.println("Next four :" );
-        System.out.println(letter1--);// post increment =K
-        System.out.println(letter1--);//post increment =J
-        System.out.println(letter1--);// post increment =I
-        System.out.println(letter1--);//post increment = H
+        System.out.println(letter1--);// post increment =K  ....K >
+        System.out.println(letter1--);//post increment =J     ....J>J..
+        System.out.println(letter1--);// post increment =I        I>I
+        System.out.println(letter1--);//post increment = H        H
 
         char letter2 = 'L';
 

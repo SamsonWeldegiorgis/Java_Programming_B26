@@ -29,8 +29,8 @@ public class MonthNumber {
         int monthOfTheYear = scan.nextInt();
 
         if (monthOfTheYear ==1 || monthOfTheYear ==3 || monthOfTheYear ==5 ||
-                monthOfTheYear ==7 && monthOfTheYear ==8 || monthOfTheYear ==10 ||
-                monthOfTheYear ==12) {
+                monthOfTheYear ==7 || monthOfTheYear ==8 || monthOfTheYear ==10 ||
+                monthOfTheYear ==12 ) {
             System.out.println("It has 31 days");
         }else if ( monthOfTheYear==2) {
             System.out.println("It has 28 days");

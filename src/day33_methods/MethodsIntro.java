@@ -11,6 +11,11 @@ public class MethodsIntro {
 
         sum(a,b);
 
+        int g= 40;
+        int h= 50;
+
+        sum(g,h);
+
         // sum(3.3,4); Compiler can do only Implicit Casting
 
         sum((int) 3.3,4);  // we did casting Explicitly

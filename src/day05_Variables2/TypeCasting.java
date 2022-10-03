@@ -15,6 +15,7 @@ public class TypeCasting {
 
         int i3=500;
         long l1 =i3; // int is smaller thatn long, so it will automatically cast
+        System.out.println("l1:"+l1);
 
         long l2= 200;
         int i4= (int) l2 ; // i m trying to go from long to int. Long is bigger than int, so I must cast it

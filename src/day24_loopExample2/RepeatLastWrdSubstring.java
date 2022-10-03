@@ -17,14 +17,15 @@ Input:   Hello?  3 		Output: 	Hello????
 
         for (int index = 0; index < str.length(); index++) {
 
-            if (str.length()==3){
-               System.out.print((str.charAt(index)));
-                counter=str.length();
+            if (str.length() == 3) {
+                System.out.print((str.charAt(index)));
+                counter = str.length();
+            }
         }
         System.out.print((str.substring(counter,str.length()).repeat(2)));}
 
 //        str+=str.substring(5,str.length());   //or
 //        System.out.println(str);
-    }}
+    }
 
 

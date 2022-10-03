@@ -16,15 +16,15 @@ public class shortCircuit {
 
         // System.out.println( 5/ 0 );
 
-        System.out.println(true || 5/0 == 0 ); // true
-
-        System.out.println(false | 5/0 == 0 ); // NO Print out -- Wrong type --
-
-        System.out.println(true | 5/0 == 0 ); // NO Print out -- Wrong type --
-
-        System.out.println(true && 5/0 == 0 ); // NO Print out -- Wrong type --
-
-        System.out.println(true & 5/0 == 0 ); // NO Print out -- Wrong type --
+//        System.out.println(true || 5/0 == 0 ); // true
+//
+//        System.out.println(false | 5/0 == 0 ); // NO Print out -- Wrong type --
+//
+//        System.out.println(true | 5/0 == 0 ); // NO Print out -- Wrong type --
+//
+//        System.out.println(true && 5/0 == 0 ); // NO Print out -- Wrong type --
+//
+//        System.out.println(true & 5/0 == 0 ); // NO Print out -- Wrong type --
 
 
 

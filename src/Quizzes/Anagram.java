@@ -21,8 +21,8 @@ public class Anagram {
 
     public static void main(String[] args) {
 
-        String str1 = "move";
-        String str2 = "mova";
+        String str1 = "love";
+        String str2 = "elov";
         anagaram(str1,str2);
     }
 }

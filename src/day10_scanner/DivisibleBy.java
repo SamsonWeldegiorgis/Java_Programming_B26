@@ -35,6 +35,15 @@ public class DivisibleBy {
         System.out.println("DivisibleByFive is:" +(num1%5)+" =" +by5);
 
 
+        boolean bb = num1 % 2==0;
+        boolean cc = num1 % 3 ==0;
+        boolean dd = num1 % 5==0;
+
+        System.out.println(num1+"bb%2:" +(num1%2)+" :" +bb);
+        System.out.println(num1+"cc%3:"+(num1%3)+" :" +cc);
+        System.out.println(num1+"dd%5:"+(num1%5)+" :" +dd);
+
+
 
     }
 }

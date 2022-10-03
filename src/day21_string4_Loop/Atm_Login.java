@@ -24,6 +24,33 @@ public class Atm_Login {
                 } else {
                     System.out.println("LOGed out");
                 }
-            }}}
+            }
+        System.out.println(" ---------------------------------");
+
+/////////////////////////////////////////////////////////////////
+
+                System.out.println("Please enter PassWord");
+                        String passWord = input.nextLine();
+                        boolean corectPass = true;
+
+                        for (int i = 0; i < 2; i++) {
+        if(passWord.length() == 4 && passWord.startsWith("aa")){
+        System.out.println("LOGGED IN");
+        corectPass= true;
+        break;
+        }else {
+        System.out.println("Please enter Pass");
+        passWord = input.nextLine();
+        corectPass=false;
+        }
+
+        }if(!corectPass){
+        System.out.println("Try in 24 hours");
+        }
+
+
+        }
+        }
+
 
 

@@ -6,11 +6,13 @@ public class AverageNumbers {
         example : [1,2,3,] - > ave is 2  .....[10,15,5,6] - > ave is 9 [4,5,6,7,8,10,20,30,0] ...ave 10
          */
 //
-        int [] num = {10,15,5,6};
+        int [] num = {1,2,3,6};
         int sum = 0 ;
         for (int i = 0; i < num.length; i++) {
             sum+=num[i];
+
         }
+        System.out.println("sum : " + sum);
         System.out.println("AverageTraditional :"+ (sum/num.length)); // traditionally
 
 

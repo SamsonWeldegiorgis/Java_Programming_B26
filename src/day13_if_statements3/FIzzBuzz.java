@@ -4,18 +4,27 @@ import java.util.Scanner;
 
 public class FIzzBuzz {
     public static void main(String[] args) {
-        /*
-        You will have a number :
-            Print result : Fizz, Buzz, or FizzBuzz
-            if number is divisible by 3 >> get Fizz
-            if number is divisible by 5 >> get Buzz
-            if nubmer is divisible by both 3 & 5 >> get FizzBuzz
-         */
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int number = sc.nextInt();
-        int number2= sc.nextInt();
+        fizbuzz();
+    }
+
+    public static void fizbuzz() {
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Put a number");
+        int num = input.nextInt();
+
+        for (int i = 0; i <= num; i++) {
+            if (i % 3 == 0) {
+                System.out.println("FIZZ");
+            }
+            if (i % 5 == 0) {
+                System.out.println("BUZZ");
+            }
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FizzBUZZ");
+            } else
+                System.out.println(i);
 
 
 //        if ( number % 3==0 && number % 5 ==0 ) {   // n % 15 == 0
@@ -31,5 +40,5 @@ public class FIzzBuzz {
 //
 //       int number2 =  (number % 3 == 0 && number % 5 == 0) ? "BuzzFizz" : (number % 3==0) ?  "Fizz"
 //               : (number % 5==0 )? "Buzz" : "Is not";
-    }
-}
+        }
+    }}

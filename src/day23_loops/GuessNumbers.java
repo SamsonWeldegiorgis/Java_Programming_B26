@@ -9,10 +9,12 @@ public class GuessNumbers {
 
         int secretNumber = 80;
         int guess;
+        int attempt =0;
 
         do {
             System.out.println("Guess a number from 1-100");
             guess = input.nextInt();  // 70
+
 
             if (guess > secretNumber) {
                 System.out.println(guess + " is too big");

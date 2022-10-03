@@ -26,5 +26,11 @@ public class Store2 {
             }
         }
            System.out.println(lookingFor + (inStock ? " in stock" : " out of stock"));
+
+
+
+
+
+
     }
 }
